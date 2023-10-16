@@ -158,3 +158,11 @@ GET index/_search
 ```bash
 docker exec -it * bin/elasticsearch-plugin install https://github.com/GooGuTeam/elasticsearch-analysis-stconvert/releases/download/v.8.10.3/elasticsearch-analysis-stconvert-8.10.3.zip
 ```
+
+# 智能中文分析插件
+
+https://www.elastic.co/guide/en/elasticsearch/plugins/8.10/analysis-smartcn.html
+
+'''bash
+sudo bin/elasticsearch-plugin install analysis-smartcn
+'''
